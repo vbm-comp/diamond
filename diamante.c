@@ -10,7 +10,7 @@
     
     Para os asteriscos da parte de cima do diamante eu preciso de um for que execute o printf("*") 
     1 vez quando estiver na primeira linha, 3 vezes na segunda linha e assim por diante até o numero impar 
-    que é determinado pela variavel: linha central = ((diagonal) + 1) / 2
+    que é determinado pela variavel: linha central = ((diagonal) + 1) / 2)
 
     Para a parte abaixo da linha central a quantidade de asteriscos serão os numeros impares anteriores a linha_central
     de tras para frente.
