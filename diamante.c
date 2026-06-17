@@ -13,7 +13,7 @@
     que é determinado pela variavel: linha central = ((diagonal) + 1) / 2)
 
     Para a parte abaixo da linha central a quantidade de asteriscos serão os numeros impares anteriores a linha_central
-    de tras para frente.
+    de tras para frente até o numero 1.
 
     Para a quantidade de espaços em branco, o padrão depende da linha_central para o começo do for (quantidade de espaços que serão printados)
     e a condição depende da linha em que estamos
