@@ -8,19 +8,21 @@
       ***    - linha 6: 2 espaços / 3 asterisco
        *     - linha 7: 3 espaços / 1 asterisco
     
-    Para os asteriscos serao os numeros impares de 1 ate (diagonal)
+    Para os asteriscos da parte de cima do diamante eu preciso de um for que execute o printf("*") 
+    1 vez quando estiver na primeira linha, 3 vezes na segunda linha e assim por diante até o numero impar 
+    que é determinado pela variavel: linha central = ((diagonal) + 1) / 2
 
-    linha central: ((diagonal) + 1) / 2
-    ASTERISCO = LINHA + 0
-                LINHA + 1
-                LINHA + 2
-                LINHA + 3
-                LINHA + 0
-                LINHA - 3
-                LINHA - 6
+    Para a parte abaixo da linha central a quantidade de asteriscos serão os numeros impares anteriores a linha_central
+    de tras para frente.
 
+    Para a quantidade de espaços em branco, o padrão depende da linha_central para o começo do for (quantidade de espaços que serão printados)
+    e a condição depende da linha em que estamos
+    
     A quantidade total de linhas será a diagonal maior do losango, e é determinada 
     por um for que depende da variavel inteira: (diagonal) fornecida pelo usuario    
+
+    CONDIÇÃO PARA INPUT DO USUARIO: A diagonal deve ser um numero impar maior ou igual a 3 para que o padrao de diamante seja possivel
+    estou considerando que apenas um asterisco não se caracterize como diamante.
 
 */
 #include <stdio.h>
